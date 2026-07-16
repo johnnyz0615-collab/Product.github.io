@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 适配手机端 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资料下载与视频教程</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #222;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 26px;
+        }
+        .desc {
+            color: #666;
+            text-align: center;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+        .link-box {
+            margin: 20px 0;
+        }
+        .link-item {
+            display: block;
+            text-decoration: none;
+            padding: 16px 20px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            transition: all 0.2s;
+        }
+        .link-item:hover {
+            background-color: #f0f7ff;
+            border-color: #4080ff;
+        }
+        .link-title {
+            font-size: 18px;
+            color: #1967d2;
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+        .link-tip {
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>产品配套资料中心</h1>
+        <p class="desc">下方包含操作教学视频、电子说明书，点击即可跳转打开</p>
+
+        <div class="link-box">
+            <!-- 1. 教学视频链接 替换href双引号内为你的视频地址 -->
+            <a class="link-item" href="https://www.bilibili.com/video/BV1xxxxxx/" target="_blank">
+                <div class="link-title>📹 完整操作教学视频</div>
+                <div class="link-tip">点击新窗口打开视频教程</div>
+            </a>
+
+            <!-- 2. 电子说明书链接 替换href为你的PDF/文档地址 -->
+            <a class="link-item" href="https://xxx.oss-cn-shenzhen.aliyuncs.com/manual.pdf" target="_blank">
+                <div class="link-title>📄 官方使用说明书(PDF)</div>
+                <div class="link-tip">完整图文说明书，可下载保存</div>
+            </a>
+
+            <!-- 可无限复制增加更多链接 -->
+            <a class="link-item" href="shturl.cc/vJEe6nqNNEWyQHaBREj8" target="_blank">
+                <div class="link-title>💾 配套驱动安装包</div>
+                <div class="link-tip">Windows驱动程序下载</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
